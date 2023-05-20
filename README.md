@@ -1,2 +1,3 @@
 # pagina_pessoal
-Projeto desenvolvido para apresentação pessoal
+
+Projeto desenvolvido em HTML e CSS para apresentação pessoal.
