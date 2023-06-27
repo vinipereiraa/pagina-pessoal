@@ -10,17 +10,16 @@
 /* VARIÁVEIS PARA ARMAZENAR CORES QUE SERÃO UTILIZADAS NO SITE */
 :root {
     ---white: #fff;
-    ---dark1: #34344e;
-    ---dark2: #3a415a;
-    ---dark3: #566981;
-    --dark4:  #89a7b1;
-    ---dark5: #cbdad5;
-    ---dark6: #2f2f46;
+    ---dark1: #272727;
+    ---dark2: #2d2d2d;
+    ---dark3: #414141;
+    --dark4:  #1c1c1c;
+    ---dark5: #343434;
     ---green1:#32CD32;
 }
 
 body {
-    background-color: var(---dark1);
+    background-color: var(---dark5);
     height: 100vh;
     font-family: 'Lato';
 }
@@ -32,21 +31,70 @@ header {
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: var(---dark6);
+    background-color: var(---dark1);
     min-height: 50px;
 }
 
-.box-img-header {
-    height: 100%;
+nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.img-logo {
-    max-width: 60px;
-    height: 100%;
+nav a {
+    text-decoration: none;
+    color: var(---dark4);
 }
 
-#img-perfil {
-    width: 450px;
-    height: 490px;
-    margin-right: 10%;
+nav a:hover {
+    color: var(--white);
+    transition: .4s;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    padding: 4rem;
+}
+
+.primeira-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 500px;
+}
+
+.primeira-section > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+strong {
+    color: var(---dark4);
+}
+
+.box-img {
+    max-width: 450px;
+    padding: 1rem;
+
+}
+
+.foto-vini {
+    border-radius: 50%;
+    width: 100%;
 }
