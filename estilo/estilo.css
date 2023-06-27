@@ -44,3 +44,9 @@ header {
     max-width: 60px;
     height: 100%;
 }
+
+#img-perfil {
+    width: 450px;
+    height: 490px;
+    margin-right: 10%;
+}
