@@ -21,7 +21,6 @@
 
 body {
     background-color: var(---dark5);
-    height: 100vh;
     font-family: 'Lato';
 }
 
@@ -105,23 +104,33 @@ strong {
     text-align: center;
 }
 
-.sobre-mim {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
-    text-align: center;
-}
-
 #sobre-mim {
     background-color: var(---blue);
-    width: 80%;
-    padding: 2%;
     border-radius: 10px;
-    
+    padding: 15px;
 }
 
 #sobre-mim h2 {
+    font-family: 'Lilita One';
+}
+
+#sobre-estudos {
+    background-color: var(---blue);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#sobre-estudos h2 {
+    font-family: 'Lilita One';
+}
+
+#contato {
+    background-color: var(---blue);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#contato h2 {
     font-family: 'Lilita One';
 }
 
