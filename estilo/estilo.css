@@ -9,14 +9,27 @@
 
 /* VARIÁVEIS PARA ARMAZENAR CORES QUE SERÃO UTILIZADAS NO SITE */
 :root {
-    ---white: #fff;
-    ---dark:  #000000;
     ---dark1: #272727;
-    ---dark2: #2d2d2d;
-    ---dark3: #414141;
-    --dark4:  #1c1c1c;
     ---dark5: #343434;
     ---blue:  #B0E0E6;
+}
+
+/* CÓDIGO PARA PERSONALIZAR A BARRA DE ROLAMENTO DO NAVEGADOR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(---dark5);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(---dark1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    transition: .4s;
+    background: var(---blue);
 }
 
 body {
@@ -94,6 +107,7 @@ strong {
     margin-right: 10%;
     width: 450px;
     height: 490px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px var(---blue);
 }
 
 .foto-vini {
@@ -132,6 +146,16 @@ strong {
 
 #contato h2 {
     font-family: 'Lilita One';
+}
+
+#link {
+    text-decoration: none;
+    color: var(---dark4);
+}
+
+#link:hover {
+    transition: .4s;
+    text-decoration: underline;
 }
 
 footer {

@@ -1,3 +1,3 @@
 # pagina_pessoal
 
-Página em desenvolvimento com HTML e CSS para apresentação pessoal
+Página desenvolvida com HTML e CSS para apresentação pessoal
