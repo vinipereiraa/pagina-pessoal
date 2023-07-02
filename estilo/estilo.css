@@ -46,6 +46,7 @@ header {
     padding: .8rem;
     background-color: var(---dark1);
     min-height: 50px;
+    width: 100%;
 }
 
 nav {
@@ -104,14 +105,9 @@ strong {
     display: block;
     border-radius: 60%;
     overflow: hidden;
-    margin-right: 10%;
     width: 450px;
-    height: 490px;
+    height: 450px;
     box-shadow: 1.5px 1.5px 1.5px 1.5px var(---blue);
-}
-
-.foto-vini {
-    width: 100%;
 }
 
 .segunda-section {
@@ -128,6 +124,12 @@ strong {
     font-family: 'Lilita One';
 }
 
+#sobre-mim:hover {
+    transform: scale(1.1) translateY(-1px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 #sobre-estudos {
     background-color: var(---blue);
     border-radius: 10px;
@@ -138,6 +140,12 @@ strong {
     font-family: 'Lilita One';
 }
 
+#sobre-estudos:hover {
+    transform: scale(1.1) translateY(-1px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 #contato {
     background-color: var(---blue);
     border-radius: 10px;
@@ -146,6 +154,12 @@ strong {
 
 #contato h2 {
     font-family: 'Lilita One';
+}
+
+#contato:hover {
+    transform: scale(1.1) translateY(-1px);
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 #link {
